@@ -1,13 +1,18 @@
 {
   "name": "@rello-platform/types",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Shared TypeScript types for the Rello platform — cross-repo wire shapes (RealtorProspectData, etc.) that must stay aligned across spokes + Milo Engine.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist", "src", "README.md", "LICENSE"],
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
-    "build": "tsc",
-    "prepublishOnly": "npm run build"
+    "compile": "tsc",
+    "prepublishOnly": "npm run compile"
   },
   "devDependencies": {
     "typescript": "^5.4.0"
